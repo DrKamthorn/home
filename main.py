@@ -84,7 +84,7 @@ def main():
     elif menu_item == "Transcribe":
         webbrowser.open_new_tab("https://drkamthorn-whisperai.streamlit.app/")
     elif menu_item == "Convert":
-        convert()
+        webbrowser.open_new_tab("https://drkamthorn-docconvert-app-kjr9mv.streamlit.app/")
     elif menu_item == "Denoise":
         denoise()
     elif menu_item == "Tempo":
