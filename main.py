@@ -61,9 +61,9 @@ def convert():
     st.write("This is the Convert page.")
 
 # Denoise Page
-def denoise():
-    st.title("Denoise")
-    st.write("This is the Denoise page.")
+def keep():
+    st.title("Keep")
+    st.write("This is the Keep page.")
 
 # Tempo Page
 def tempo():
@@ -84,9 +84,9 @@ def main():
     elif menu_item == "Transcribe":
         webbrowser.open_new_tab("https://drkamthorn-whisperai.streamlit.app/")
     elif menu_item == "Convert":
-        convert()
-    elif menu_item == "Denoise":
-        denoise()
+        webbrowser.open_new_tab("https://drkamthorn-docconvert-app-kjr9mv.streamlit.app/") 
+    elif menu_item == "Keep":
+        webbrowser.open_new_tab("https://drkamthorn-arch2-kep-m36e8h.streamlit.app/")
     elif menu_item == "Tempo":
         tempo()
 
